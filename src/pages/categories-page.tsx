@@ -99,7 +99,7 @@ export default function CategoriesPage() {
           <div key={id} className="flex flex-row justify-center items-center">
             <Category key={id} id={id} name={name} userId={userId} />
             <MdDelete
-              color="red"
+                color="red"
               className=" hover:cursor-pointer"
               onClick={() => handleDelete(id)}
             />
